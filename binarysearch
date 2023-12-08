@@ -1,0 +1,44 @@
+public void selectionsort(int[] arr, int n)
+{
+    int i, j, minindex, minele;
+    for (i = 0; i < n; i++)
+    {
+        minindex = i;
+        minele = arr[i];
+        for (j = i + 1; j < n; j++)
+        {
+            if (minele > arr[j])
+            {
+                minele = arr[j];
+                minindex = j;
+            }
+        }
+        if (minindex != i)
+        {
+            arr[minindex] = arr[i];
+            arr[i] = minele;
+        }
+    }
+}
+
+public int binarysearch(int[] arr, int key, int left, int right)
+{
+    int mid = (left + right) / 2;
+    if (left > right)
+    {
+        return -404;
+    }
+    else if (arr[mid] == key)
+    {
+        return mid;
+    }
+    else if (arr[mid] < key)
+    {
+        return binarysearch(arr, key, mid + 1, right);
+    }
+    else
+    {
+        return binarysearch(arr, key, left, mid - 1);
+    }
+}
+
