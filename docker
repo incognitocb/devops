@@ -36,6 +36,7 @@ docker run -d --name cust-cont -p 8081:8080 custimg1
 
 # Jenkins --> New item create
 # Configure -->
+# postbuild action --> send build artifacts over SSH
 # SSH server
 # Target: target/*.war
 # Remove Prefix: target
