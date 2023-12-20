@@ -1,10 +1,10 @@
 cd d:
-  223  mkdir koush
-  224  cd koush/
+  223  mkdir cow
+  224  cd cow/
   225  git init .
   226  ls -a
   227  git branch -m main
-  228  git remote add origin https://github.com/premsathyavamsi/koushik.git
+  228  git remote add origin https://github.com/-------/------.git
   229  cat > file1
   230  git add file1
   231  git commit -m "1st comm"
