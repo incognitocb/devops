@@ -1,0 +1,74 @@
+cd d:
+  223  mkdir koush
+  224  cd koush/
+  225  git init .
+  226  ls -a
+  227  git branch -m main
+  228  git remote add origin https://github.com/premsathyavamsi/koushik.git
+  229  cat > file1
+  230  git add file1
+  231  git commit -m "1st comm"
+  232  git log
+  233  cat >> file1
+  234  cat file1
+  235  git diff
+  236  git diff HEAD
+  237  git add file1
+  238  git diff --staged
+  239  git log
+  240  git restore b70e89406cf6
+  241  git restore file1
+  242  cat file1
+  243  git reset file1
+  244  cat file1
+  245  git commit -m "2nd commit"
+  246  git add file1
+  247  git commit -m "2nd commit"
+  248  git log
+  249  git annotate
+  250  git annotate file1
+  251  git push originmain
+  252  git push origin main
+  253  git branch test
+  254  git checkout test
+  255  git log
+  256  git push origin test
+  257  git switch -
+  258  git branch test
+  259  git checkout test
+  260  cat > file2
+  261  git add file2
+  262  git commit -m "3rd commit"
+  263  git log
+  264  git switch -
+  265  git log
+  266  git merge test
+  267  git log
+  268  git pull origin main
+  269  git checkout test
+  270  git pull origin main
+  271  git pull origin test
+  272  git log
+  273  cat > file9
+  274  git add file1
+  275  git commit -m "9th commit"
+  276  cat file9
+  277  git add file9
+  278  git commit -m "9th commit"
+  279  git log
+  280  cat >> file9
+  281  git restore 537ee2f34d4e7c56f147639a238f601414c3e0e8
+  282  git restore 537ee2
+  283  git restore file9
+  284  git status
+  285  git status
+  286  git reset 537ee2f34d4e7c56f147639a238f601414c3e0e8
+  287  cat file9
+  288  cat > fil10
+  289  git add fil10
+  290  git commit -m "dfhgjs"
+  291  cat fil10
+  292  git log
+  293  git restore fil10
+  294  git reset 4665425677550
+  295  cat fil10
